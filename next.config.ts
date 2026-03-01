@@ -4,6 +4,7 @@ const isExport = process.env.GITHUB_PAGES === "true";
 
 const nextConfig: NextConfig = {
   output: isExport ? "export" : "standalone",
+  basePath: isExport ? "/nexaura-tenders" : "",
   images: {
     unoptimized: true,
   },

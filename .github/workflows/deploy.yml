@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAGES: "true"
+      # Backend API URL — set in repo Settings > Secrets > Variables
+      # Defaults to VPS if not configured
+      NEXT_PUBLIC_API_URL: ${{ vars.BACKEND_URL || 'https://69.62.108.37' }}
     steps:
       - uses: actions/checkout@v4
 

@@ -107,7 +107,7 @@ function forceLogout() {
     description: "Trop de tentatives de reconnexion. Veuillez vous reconnecter.",
   });
   setTimeout(() => {
-    window.location.href = "/login";
+    window.location.href = `${process.env.__NEXT_ROUTER_BASEPATH || ""}/login`;
   }, 1000);
 }
 
@@ -194,7 +194,7 @@ api.interceptors.response.use(
 
         // Delay redirect to let toast show
         setTimeout(() => {
-          window.location.href = "/login";
+          window.location.href = `${process.env.__NEXT_ROUTER_BASEPATH || ""}/login`;
         }, 1000);
         return Promise.reject(refreshError);
       }

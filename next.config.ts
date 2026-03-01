@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 
-const isExport = process.env.GITHUB_PAGES === "true";
+// STATIC_EXPORT=true → static HTML export (for nginx / GitHub Pages)
+// GITHUB_PAGES=true  → adds basePath for repo subdirectory serving
+const isExport =
+  process.env.STATIC_EXPORT === "true" ||
+  process.env.GITHUB_PAGES === "true";
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig: NextConfig = {
   output: isExport ? "export" : "standalone",
-  basePath: isExport ? "/nexaura-tenders" : "",
+  basePath: isGitHubPages ? "/nexaura-tenders" : "",
   images: {
     unoptimized: true,
   },

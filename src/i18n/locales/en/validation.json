@@ -1,0 +1,44 @@
+{
+  "required": "This field is required",
+  "email": "Please enter a valid email address",
+  "minLength": "Minimum {{min}} characters required",
+  "maxLength": "Maximum {{max}} characters allowed",
+  "min": "Value must be at least {{min}}",
+  "max": "Value must not exceed {{max}}",
+  "pattern": "Invalid format",
+  "url": "Please enter a valid URL",
+  "date": "Please enter a valid date",
+  "dateRange": "End date must be after start date",
+  "number": "Please enter a valid number",
+  "integer": "Please enter a whole number",
+  "positive": "Value must be positive",
+  "phone": "Invalid phone number",
+  "siret": "Invalid SIRET number",
+  "postalCode": "Invalid postal code",
+  "passwordMatch": "Passwords do not match",
+  "passwordStrength": {
+    "weak": "Weak password",
+    "medium": "Medium password",
+    "strong": "Strong password",
+    "requirements": "Password must contain at least 8 characters, one uppercase, one lowercase and one number"
+  },
+  "file": {
+    "required": "Please select a file",
+    "maxSize": "File must not exceed {{size}}",
+    "type": "File type not allowed",
+    "maxFiles": "Maximum {{max}} files allowed"
+  },
+  "tender": {
+    "titleRequired": "Tender title is required",
+    "deadlineRequired": "Deadline is required",
+    "deadlineFuture": "Deadline must be in the future",
+    "budgetRequired": "Budget is required",
+    "budgetPositive": "Budget must be positive",
+    "documentsRequired": "At least one document is required"
+  },
+  "form": {
+    "hasErrors": "Form contains errors",
+    "fixErrors": "Please fix errors before continuing",
+    "unsavedChanges": "You have unsaved changes"
+  }
+}

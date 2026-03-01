@@ -1,0 +1,8 @@
+# Test artifacts
+coverage/
+.vitest/
+*.log
+
+# Test results
+junit.xml
+test-results.json

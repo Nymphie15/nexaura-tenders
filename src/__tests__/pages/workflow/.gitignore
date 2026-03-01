@@ -1,0 +1,10 @@
+# Test coverage
+coverage/
+*.lcov
+
+# Test results
+test-results/
+junit.xml
+
+# Vitest cache
+.vitest/

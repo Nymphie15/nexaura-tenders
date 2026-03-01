@@ -1,0 +1,19 @@
+{
+  "name": "tenders-tests",
+  "version": "1.0.0",
+  "description": "Tests unitaires pour les pages Tenders",
+  "private": true,
+  "scripts": {
+    "test": "cd ../../../.. && npm test -- tests/unit/pages/tenders",
+    "test:list": "cd ../../../.. && npm test -- tenders-list.test.tsx",
+    "test:detail": "cd ../../../.. && npm test -- tender-detail.test.tsx",
+    "test:loading": "cd ../../../.. && npm test -- tenders-loading.test.tsx",
+    "test:error": "cd ../../../.. && npm test -- tenders-error.test.tsx",
+    "test:watch": "cd ../../../.. && npm test -- tests/unit/pages/tenders --watch",
+    "test:coverage": "cd ../../../.. && npm run test:coverage -- tenders",
+    "test:ui": "cd ../../../.. && npm test -- tests/unit/pages/tenders --ui",
+    "test:debug": "cd ../../../.. && npm test -- tests/unit/pages/tenders --inspect-brk"
+  },
+  "author": "",
+  "license": "MIT"
+}

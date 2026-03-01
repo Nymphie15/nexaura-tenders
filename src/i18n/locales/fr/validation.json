@@ -1,0 +1,44 @@
+{
+  "required": "Ce champ est requis",
+  "email": "Veuillez entrer une adresse email valide",
+  "minLength": "Minimum {{min}} caractères requis",
+  "maxLength": "Maximum {{max}} caractères autorisés",
+  "min": "La valeur doit être au moins {{min}}",
+  "max": "La valeur ne doit pas dépasser {{max}}",
+  "pattern": "Format invalide",
+  "url": "Veuillez entrer une URL valide",
+  "date": "Veuillez entrer une date valide",
+  "dateRange": "La date de fin doit être après la date de début",
+  "number": "Veuillez entrer un nombre valide",
+  "integer": "Veuillez entrer un nombre entier",
+  "positive": "La valeur doit être positive",
+  "phone": "Numéro de téléphone invalide",
+  "siret": "Numéro SIRET invalide",
+  "postalCode": "Code postal invalide",
+  "passwordMatch": "Les mots de passe ne correspondent pas",
+  "passwordStrength": {
+    "weak": "Mot de passe faible",
+    "medium": "Mot de passe moyen",
+    "strong": "Mot de passe fort",
+    "requirements": "Le mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule et un chiffre"
+  },
+  "file": {
+    "required": "Veuillez sélectionner un fichier",
+    "maxSize": "Le fichier ne doit pas dépasser {{size}}",
+    "type": "Type de fichier non autorisé",
+    "maxFiles": "Maximum {{max}} fichiers autorisés"
+  },
+  "tender": {
+    "titleRequired": "Le titre de l'appel d'offres est requis",
+    "deadlineRequired": "La date limite est requise",
+    "deadlineFuture": "La date limite doit être dans le futur",
+    "budgetRequired": "Le budget est requis",
+    "budgetPositive": "Le budget doit être positif",
+    "documentsRequired": "Au moins un document est requis"
+  },
+  "form": {
+    "hasErrors": "Le formulaire contient des erreurs",
+    "fixErrors": "Veuillez corriger les erreurs avant de continuer",
+    "unsavedChanges": "Vous avez des modifications non enregistrées"
+  }
+}

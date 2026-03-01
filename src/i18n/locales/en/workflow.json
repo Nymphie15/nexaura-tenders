@@ -1,0 +1,92 @@
+{
+  "stages": {
+    "draft": "Draft",
+    "review": "Under Review",
+    "approved": "Approved",
+    "submitted": "Submitted",
+    "won": "Won",
+    "lost": "Lost",
+    "cancelled": "Cancelled"
+  },
+  "actions": {
+    "startDraft": "Create Draft",
+    "submitForReview": "Submit for Review",
+    "approve": "Approve",
+    "reject": "Reject",
+    "submitTender": "Submit Tender",
+    "markAsWon": "Mark as Won",
+    "markAsLost": "Mark as Lost",
+    "cancel": "Cancel",
+    "reopen": "Reopen"
+  },
+  "tender": {
+    "title": "Tender",
+    "reference": "Reference",
+    "client": "Client",
+    "deadline": "Deadline",
+    "budget": "Estimated Budget",
+    "status": "Status",
+    "priority": "Priority",
+    "assignedTo": "Assigned to",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "daysRemaining": "{{count}} day remaining",
+    "daysRemaining_plural": "{{count}} days remaining",
+    "expired": "Expired",
+    "urgentDeadline": "Urgent deadline"
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "documents": {
+    "title": "Documents",
+    "upload": "Upload document",
+    "download": "Download",
+    "delete": "Delete",
+    "preview": "Preview",
+    "types": {
+      "technical": "Technical document",
+      "financial": "Financial document",
+      "administrative": "Administrative document",
+      "other": "Other"
+    },
+    "noDocuments": "No documents"
+  },
+  "timeline": {
+    "title": "History",
+    "created": "Tender created",
+    "updated": "Updated",
+    "statusChanged": "Status changed from {{from}} to {{to}}",
+    "documentAdded": "Document added: {{name}}",
+    "documentRemoved": "Document removed: {{name}}",
+    "commentAdded": "Comment added",
+    "assignedTo": "Assigned to {{user}}"
+  },
+  "filters": {
+    "all": "All",
+    "myTenders": "My tenders",
+    "urgent": "Urgent",
+    "expiringSoon": "Expiring soon",
+    "byStatus": "By status",
+    "byPriority": "By priority",
+    "byDate": "By date"
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "activeTenders": "Active tenders",
+    "pendingReview": "Pending review",
+    "submittedThisMonth": "Submitted this month",
+    "winRate": "Win rate",
+    "upcomingDeadlines": "Upcoming deadlines",
+    "recentActivity": "Recent activity"
+  },
+  "notifications": {
+    "deadlineReminder": "Reminder: Tender \"{{title}}\" expires in {{days}} days",
+    "statusUpdate": "Status of \"{{title}}\" has been updated",
+    "newAssignment": "You have been assigned to \"{{title}}\"",
+    "reviewRequired": "\"{{title}}\" requires your review"
+  }
+}

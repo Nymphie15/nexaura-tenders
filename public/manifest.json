@@ -1,0 +1,54 @@
+{
+  "name": "Appel d'Offre Automation",
+  "short_name": "AO Auto",
+  "description": "Plateforme intelligente d'automatisation des réponses aux appels d'offres publics français",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Voir le tableau de bord",
+      "url": "/",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Opportunités",
+      "short_name": "Opportunités",
+      "description": "Consulter les appels d'offres",
+      "url": "/opportunities",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Projets",
+      "short_name": "Projets",
+      "description": "Gérer les projets",
+      "url": "/projects",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Décisions HITL",
+      "short_name": "Décisions",
+      "description": "Valider les décisions en attente",
+      "url": "/decisions",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "scope": "/",
+  "screenshots": []
+}

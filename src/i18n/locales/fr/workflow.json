@@ -1,0 +1,92 @@
+{
+  "stages": {
+    "draft": "Brouillon",
+    "review": "En révision",
+    "approved": "Approuvé",
+    "submitted": "Soumis",
+    "won": "Gagné",
+    "lost": "Perdu",
+    "cancelled": "Annulé"
+  },
+  "actions": {
+    "startDraft": "Créer un brouillon",
+    "submitForReview": "Soumettre pour révision",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "submitTender": "Soumettre l'offre",
+    "markAsWon": "Marquer comme gagné",
+    "markAsLost": "Marquer comme perdu",
+    "cancel": "Annuler",
+    "reopen": "Rouvrir"
+  },
+  "tender": {
+    "title": "Appel d'offres",
+    "reference": "Référence",
+    "client": "Client",
+    "deadline": "Date limite",
+    "budget": "Budget estimé",
+    "status": "Statut",
+    "priority": "Priorité",
+    "assignedTo": "Assigné à",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "daysRemaining": "{{count}} jour restant",
+    "daysRemaining_plural": "{{count}} jours restants",
+    "expired": "Expiré",
+    "urgentDeadline": "Échéance urgente"
+  },
+  "priority": {
+    "low": "Faible",
+    "medium": "Moyenne",
+    "high": "Haute",
+    "critical": "Critique"
+  },
+  "documents": {
+    "title": "Documents",
+    "upload": "Téléverser un document",
+    "download": "Télécharger",
+    "delete": "Supprimer",
+    "preview": "Aperçu",
+    "types": {
+      "technical": "Document technique",
+      "financial": "Document financier",
+      "administrative": "Document administratif",
+      "other": "Autre"
+    },
+    "noDocuments": "Aucun document"
+  },
+  "timeline": {
+    "title": "Historique",
+    "created": "Appel d'offres créé",
+    "updated": "Mis à jour",
+    "statusChanged": "Statut changé de {{from}} à {{to}}",
+    "documentAdded": "Document ajouté: {{name}}",
+    "documentRemoved": "Document supprimé: {{name}}",
+    "commentAdded": "Commentaire ajouté",
+    "assignedTo": "Assigné à {{user}}"
+  },
+  "filters": {
+    "all": "Tous",
+    "myTenders": "Mes appels d'offres",
+    "urgent": "Urgents",
+    "expiringSoon": "Échéance proche",
+    "byStatus": "Par statut",
+    "byPriority": "Par priorité",
+    "byDate": "Par date"
+  },
+  "dashboard": {
+    "overview": "Vue d'ensemble",
+    "activeTenders": "Appels d'offres actifs",
+    "pendingReview": "En attente de révision",
+    "submittedThisMonth": "Soumis ce mois",
+    "winRate": "Taux de réussite",
+    "upcomingDeadlines": "Prochaines échéances",
+    "recentActivity": "Activité récente"
+  },
+  "notifications": {
+    "deadlineReminder": "Rappel: L'appel d'offres \"{{title}}\" expire dans {{days}} jours",
+    "statusUpdate": "Le statut de \"{{title}}\" a été mis à jour",
+    "newAssignment": "Vous avez été assigné à \"{{title}}\"",
+    "reviewRequired": "\"{{title}}\" nécessite votre révision"
+  }
+}

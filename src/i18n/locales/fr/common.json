@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "Appel d'Offre Automation",
+    "shortName": "AOA",
+    "description": "Plateforme d'automatisation des appels d'offres"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "tenders": "Appels d'offres",
+    "documents": "Documents",
+    "analytics": "Analytiques",
+    "settings": "Paramètres",
+    "help": "Aide",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "submit": "Soumettre",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "import": "Importer",
+    "download": "Télécharger",
+    "upload": "Téléverser",
+    "refresh": "Actualiser",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "view": "Voir",
+    "copy": "Copier",
+    "duplicate": "Dupliquer"
+  },
+  "status": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "pending": "En attente",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "completed": "Terminé",
+    "draft": "Brouillon",
+    "published": "Publié",
+    "archived": "Archivé"
+  },
+  "common": {
+    "yes": "Oui",
+    "no": "Non",
+    "all": "Tous",
+    "none": "Aucun",
+    "or": "ou",
+    "and": "et",
+    "date": "Date",
+    "time": "Heure",
+    "name": "Nom",
+    "description": "Description",
+    "type": "Type",
+    "category": "Catégorie",
+    "amount": "Montant",
+    "total": "Total",
+    "items": "{{count}} élément",
+    "items_plural": "{{count}} éléments",
+    "noResults": "Aucun résultat trouvé",
+    "required": "Requis"
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite",
+    "notFound": "Page non trouvée",
+    "unauthorized": "Accès non autorisé",
+    "forbidden": "Accès interdit",
+    "serverError": "Erreur serveur",
+    "networkError": "Erreur de connexion",
+    "timeout": "Délai d'attente dépassé",
+    "tryAgain": "Veuillez réessayer"
+  },
+  "auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "register": "Inscription",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi",
+    "welcomeBack": "Bon retour !"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "sur",
+    "showing": "Affichage de",
+    "to": "à",
+    "entries": "entrées",
+    "perPage": "par page"
+  }
+}
